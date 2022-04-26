@@ -55,9 +55,11 @@ public class Application {
                 case (5) :
                     System.out.println("Данные загружены в файл");
                     library.writeInFile();
+                    break;
                 case (6) :
                     library.readFromFile();
                     System.out.println("Данные выгружены из файла");
+                    break;
             }
         }
     }

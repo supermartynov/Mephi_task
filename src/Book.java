@@ -77,11 +77,11 @@ public class Book {
     @Override
     public String toString() {
         return "Номер: " + Count +
-                " Автор: " + Author + ' ' +
-                " Имя: " + Name + ' ' +
-                " Издательство: " + Izdatelstvo + ' ' +
-                " Раздел: " + Razdel + ' ' +
-                " Наличие: " + Nalichie + ' ' +
+                " Автор: '" + Author + '\'' +
+                " Имя: " + Name + '\'' +
+                " Издательство: " + Izdatelstvo + '\'' +
+                " Раздел: " + Razdel + '\'' +
+                " Наличие: " + Nalichie + '\'' +
                 " Состояние: " + Sostoinie;
     }
 }
